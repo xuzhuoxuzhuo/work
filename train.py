@@ -14,17 +14,17 @@ import numpy as np
 from dataset import get_data_root,HorseDataset
 from iou import get_biou,get_matrix,get_boundary,get_mious
 ###########################################参数######################################
-UseGpu=0 #UseGpu=0,使用CPU训练，UseGpu=1,使用GPU训练
+UseGpu=0 #UseGpu=0,使用CPU训练，UseGpu=1,使用GPU训练 如需使用GPU，请确保您的python,torch,torchvison与cuda版本能够兼容
 batchsize=4#Batchsize
 epochs=100#epoch
 learningrate=1e-4#学习率
 seed=666 #随机数种子，确保算法可以复现，无需更改
 #save='save'
 #数据集路径
-train_datadir = r'weizmann_horse_db\train_img' #原始图像训练集
-train_gtdir = r'weizmann_horse_db\train_gt' #训练集标签
-val_datadir = r'weizmann_horse_db\val_img' #原始图像测试集
-val_gtdir = r'weizmann_horse_db\val_gt' #测试集标签
+train_datadir = r'weizmann_horse_db/train_img' #原始图像训练集
+train_gtdir = r'weizmann_horse_db/train_gt' #训练集标签
+val_datadir = r'weizmann_horse_db/val_img' #原始图像测试集
+val_gtdir = r'weizmann_horse_db/val_gt' #测试集标签
 print('导入数据集...')
 #设置随机种子，保证训练结果具有可复现性
 torch.manual_seed(seed)

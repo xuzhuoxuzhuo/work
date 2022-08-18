@@ -25,7 +25,9 @@ weizmann_horse_db
 ```
 ## Installation
 
-   本人的代码已经在Python 3.9上进行了测试。配置环境其他必需软件包请参阅requirements.txt。
+   本人的代码已经在Python 3.9上使用CPU进行了测试。配置环境必需软件包请参阅requirements.txt。
+   
+   如需使用GPU训练，请确保您的python,torch,torchvison与cuda版本能够兼容。
    
    
 ## 推理预测

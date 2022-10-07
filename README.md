@@ -1,6 +1,6 @@
 ## Panoptic FPN
 
-*本项目为本人的视觉认知工程考察作业，在 weizmann_horse数据集上完成语义分割任务，对《Panoptic Feature Pyramid Networks》中的ResNet-101-FPN网络进行简要复现-ResNet-18-FPN,并结合论文的思想搭建ResNet-18-BiFPN网络。
+*本项目在 weizmann_horse数据集上完成语义分割任务，对《Panoptic Feature Pyramid Networks》中的ResNet-101-FPN网络进行简要复现-ResNet-18-FPN,并结合论文的思想搭建ResNet-18-BiFPN网络。
 
 
 

@@ -2,7 +2,6 @@
 
 *本项目为本人的视觉认知工程考察作业，对《Panoptic Feature Pyramid Networks》中的ResNet-101-FPN网络进行简要复现-ResNet-18-FPN,并结合论文的思想搭建ResNet-18-BiFPN网络。
 
-*在视觉认知工程课程结束前请不要转载使用，谢谢！
 
 
 
